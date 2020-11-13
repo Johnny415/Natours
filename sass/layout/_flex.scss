@@ -1,12 +1,17 @@
-.two-col {
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.flex-items {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   .first-item {
     flex-basis: 50rem;
   }
   .second-item {
-    flex-basis: 40rem;
-    margin-right: 10rem;
+    flex-basis: 50rem;
+    margin-left: 10rem;
   }
 }
