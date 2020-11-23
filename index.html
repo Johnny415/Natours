@@ -12,6 +12,23 @@
 
 </head>
 <body>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation_checkbox" id="nav-toogle">
+        <label for="nav-toogle" class="navigation_button">
+            <span class="navigation_icon">&nbsp;</span>
+        </label>
+        <div class="navigation_background">&nbsp;</div>
+        <nav class="navigation_nav">
+            <ul class="navigation_list">
+                <li class="navigation_item"><a href="#" class="navigation_link"><span>01</span> Natours</a></li>
+                <li class="navigation_item"><a href="#"  class="navigation_link"><span>02</span>Your benefits</a></li>
+                <li class="navigation_item"><a href="#" class="navigation_link"><span>03</span>Popular tours</a></li>
+                <li class="navigation_item"><a href="#" class="navigation_link"><span>04</span>Stories</a></li>
+                <li class="navigation_item"><a href="#" class="navigation_link"><span>05</span>Book now</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
         <div class="header__logo-box">
             <img src="img/logo-white.png" alt="logo" class="header__logo">
@@ -67,17 +84,17 @@
                     </div>
                     <div class="feature-box">
                         <i class="feature-box_icon icon-basic-compass"></i>
-                        <h3 class="heading-tertiary margin-bottom-small">Explore the world</h3>
+                        <h3 class="heading-tertiary margin-bottom-small">Meet nature</h3>
                          <p class="feature-box_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                     <div class="feature-box">
                         <i class="feature-box_icon icon-basic-map"></i>
-                        <h3 class="heading-tertiary margin-bottom-small">Explore the world</h3>
+                        <h3 class="heading-tertiary margin-bottom-small">Find your way</h3>
                          <p class="feature-box_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                     <div class="feature-box">
                         <i class="feature-box_icon icon-basic-heart"></i>
-                        <h3 class="heading-tertiary margin-bottom-small">Explore the world</h3>
+                        <h3 class="heading-tertiary margin-bottom-small">Live a healthier life</h3>
                          <p class="feature-box_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
@@ -93,6 +110,7 @@
             
             <div class="container">
                 <div class="flex-items">
+                    
                     <div class="card">
                         <div class="card_side card_side--front">
                             <div class="card_picture card_picture--1">
@@ -119,11 +137,12 @@
                                     <p class="card_price-only">Only</p>
                                     <p class="card_price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                             </div>
                         </div>
                     </div>
-
+                    
+                    
                     <div class="card">
                         <div class="card_side card_side--front">
                             <div class="card_picture card_picture--2">
@@ -150,10 +169,12 @@
                                     <p class="card_price-only">Only</p>
                                     <p class="card_price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                             </div>
                         </div>
                     </div>
+                    
+                      
 
                     <div class="card">
                         <div class="card_side card_side--front">
@@ -181,12 +202,11 @@
                                     <p class="card_price-only">Only</p>
                                     <p class="card_price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                             </div>
                         </div>
                     </div>
-
-                 </div>
+                </div>
             </div>
             <div class="center-text margin-top-big">
                 <a href="#" class="btn btn--green">Discover all tours</a>
@@ -298,5 +318,27 @@
             </div>
         </div>
     </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup_content">
+            <div class="popup_left">
+                <img src="img/nat-8.jpg" alt="Tour photo" class="popup_img">
+                <img src="img/nat-9.jpg" alt="Tour photo" class="popup_img">
+            </div>
+            <div class="popup_right">
+                <a href="#section-tours" class="popup_close">&times;</a>
+                <h2 class="heading-secondary margin-bottom-small">
+                    Start booking now
+                    </h2>
+                <h2 class="heading_secondary margin-bottom-small">Important &ndash; Please read these terms before booking</h2>
+                <p class="popup_text"> 
+                    lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, laboriosam eius libero qui deserunt vel recusandae? Cumque perspiciatis eum iste maiores nostrum nam distinctio earum, nihil illum quaerat atque ipsam!
+                    lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, laboriosam eius libero qui deserunt vel recusandae? Cumque perspiciatis eum iste maiores nostrum nam distinctio earum, nihil illum quaerat atque ipsam!
+                </p>
+
+                  <a href="#" class="btn btn--green">Book now</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
