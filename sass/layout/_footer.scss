@@ -3,9 +3,17 @@
   padding: 10rem 0;
   font-size: 1.4rem;
 
+  @include respond(tab-port) {
+    padding: 5rem 0;
+  }
+
   &_logo-box {
     text-align: center;
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 4rem;
+    }
   }
 
   &_logo {
@@ -16,6 +24,11 @@
   &_navigation {
     border-top: 1px solid $color-dark-gray;
     padding-top: 2rem;
+
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   &_link {
@@ -47,11 +60,19 @@
 
   &_list {
     list-style: none;
+    @include respond(tab-port) {
+      padding-bottom: 2rem;
+    }
   }
 
   &_copyright {
     color: $color-gray-light-2;
     border-top: 1px solid $color-dark-gray;
     padding-top: 2rem;
+  }
+
+  @include respond(tab-port) {
+    width: 100%;
+    float: none;
   }
 }

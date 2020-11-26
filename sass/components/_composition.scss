@@ -1,6 +1,17 @@
 .composition {
   position: relative;
 
+  @include respond(tab-port) {
+    top: -5rem;
+  }
+
+  @include respond(phone) {
+    top: 0rem;
+  }
+  @include respond(small-device) {
+    top: 5rem;
+  }
+
   &_photo {
     max-width: 55%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
@@ -13,6 +24,13 @@
     &--p1 {
       left: 0;
       top: -2rem;
+
+      @include respond(tab-port) {
+        top: -10rem;
+      }
+      @include respond(small-device) {
+        top: -3rem;
+      }
     }
 
     &--p2 {

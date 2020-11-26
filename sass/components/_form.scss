@@ -1,6 +1,13 @@
 .form {
   &_group:not(:last-child) {
     margin-bottom: 2rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 0;
+    }
+    @include respond(small-device) {
+      margin-bottom: -2rem;
+    }
   }
 
   &_input {
@@ -15,6 +22,13 @@
     width: 40%;
     display: block;
     transition: all 0.3s;
+
+    @include respond(tab-port) {
+      width: 80%;
+    }
+    @include respond(small-device) {
+      width: 100%;
+    }
 
     &:focus {
       outline: none;
@@ -46,6 +60,14 @@
     width: 20%;
     display: inline-block;
     margin-bottom: 3rem;
+
+    @include respond(tab-port) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    @include respond(small-device) {
+      margin-top: 2rem;
+    }
   }
 
   &_radio-input {

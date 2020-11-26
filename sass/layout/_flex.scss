@@ -1,6 +1,9 @@
 .container {
   margin: 0 auto;
   width: 80%;
+
+  @include respond(tab-port) {
+  }
 }
 
 .flex-items {
@@ -8,15 +11,33 @@
   flex-direction: row;
   justify-content: space-between;
 
+  @include respond(tab-port) {
+    flex-direction: column;
+  }
+
   .first-item {
     flex-basis: 50rem;
   }
+
   .second-item {
     flex-basis: 50rem;
     margin-left: 10rem;
+
+    @include respond(tab-port) {
+      margin-left: 0;
+    }
+
+    @include respond(phone) {
+      margin-left: 0;
+      flex-basis: 30rem;
+    }
   }
   .third-item {
-    flex-basis: 35rem;
+    flex-basis: 40rem;
+
+    @include respond(tab-port) {
+      flex-basis: 20rem;
+    }
   }
   .fourth-item {
     flex-basis: 51rem;
