@@ -34,7 +34,7 @@
   &_link {
     &:link,
     &:visited {
-      color: $color-gray-light-2;
+      color: rgba($color-gray-light-2, 0.4);
       text-decoration: none;
       text-transform: uppercase;
       display: inline-block;
@@ -44,7 +44,7 @@
     &:hover,
     &:active {
       color: $color-primary;
-      background-color: $color-dark-gray-3;
+      background-color: rgba($color-dark-gray-3, 0.4);
       box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
       transform: rotate(5deg) scale(1.3);
     }
@@ -66,7 +66,7 @@
   }
 
   &_copyright {
-    color: $color-gray-light-2;
+    color: rgba($color-gray-light-2, 0.4);
     border-top: 1px solid $color-dark-gray;
     padding-top: 2rem;
   }

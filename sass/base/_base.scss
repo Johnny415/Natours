@@ -30,3 +30,7 @@ body {
     padding: 0;
   }
 }
+
+::selection {
+  background-color: rgba($color-primary, 0.4);
+}

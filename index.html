@@ -63,9 +63,32 @@
                 </div>
                 <div class= "second-item">
                     <div class="composition">
-                        <img src="img/nat-1-large.jpg" alt="photo one" class="composition_photo composition_photo--p1">
-                        <img src="img/nat-2-large.jpg" alt="photo two" class="composition_photo composition_photo--p2">
-                        <img src="img/nat-3-large.jpg" alt="photo three" class="composition_photo composition_photo--p3">
+                       
+                        <img 
+                        
+                            
+                            alt="photo one"
+                            class="composition_photo composition_photo--p1"
+                            srcset="img/nat-1.jpg 300w , img/nat-1-large.jpg 1000w "
+                            sizes="(max-width: 900px) 43vw, (max-width:600px) 43vw">
+
+                        
+                            <img 
+                            
+                            alt="photo two"
+                            class="composition_photo composition_photo--p2"
+                            srcset="img/nat-2.jpg 300w , img/nat-2-large.jpg 1000w "
+                            sizes="(max-width: 900px) 43vw, (max-width:600px) 43vw">
+
+
+                        <img 
+                            
+                            alt="photo three"
+                            class="composition_photo composition_photo--p3"
+                            srcset="img/nat-3.jpg 300w , img/nat-3-large.jpg 1000w "
+                            sizes="(max-width: 900px) 43vw, (max-width:600px) 43vw">
+
+
                     </div>
                 </div>
             </div>
@@ -302,7 +325,11 @@
 
     <footer class="footer">
         <div class="footer_logo-box">
-            <img src="img/logo-green-2x.png" alt="Full logo" class="footer_logo">
+            <picture class="footer_logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width:37.5em)">
+                <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo">  
+            </picture>
+           
         </div>
         <div class="container">
             <div class="flex-items">
