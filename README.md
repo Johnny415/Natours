@@ -8,6 +8,10 @@ This is practice project i've developed by following along with Jonas Schmedtman
   <li>HTML5</li>
   <li>SCSS(BEM)</li>
   <li>NPM&NPM Scripts</li>
+  <li>Responsive images(html and css)</li>
+  <li>7-1 pattern</li>
+  <li>Linear gradients</li>
+  <li>Video html element</li>
 </ul>
 
 <h2>What i've learned?</h2>
