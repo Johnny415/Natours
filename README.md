@@ -1,6 +1,6 @@
 # Natours-description
 
-This is practice project i've developed by following along with Jonas Schmedtmann's <a href="https://www.udemy.com/advanced-css-and-sass/" rel="nofollow"> Advanced CSS and Sass course.</a>
+This is practice project I've developed by following along with Jonas Schmedtmann's <a href="https://www.udemy.com/advanced-css-and-sass/" rel="nofollow"> Advanced CSS and Sass course.</a>
 
 <h2>Technologies</h2>
 
@@ -14,12 +14,12 @@ This is practice project i've developed by following along with Jonas Schmedtman
   <li>Video html element</li>
 </ul>
 
-<h2>What i've learned?</h2>
+<h2>What I've learned?</h2>
 
-During creation of this landing page i learnd about many new CSS properties and techniques, in which i didn't had
+During creation of this landing page I learnd about many new CSS properties and techniques, in which I didn't had
 prevoius experience, and best ways how to implement them in project.
 
-While creating the header part of the page i've learned how to use "clip-path"property, which gives really nice
+While creating the header part of the page I've learned how to use "clip-path"property, which gives really nice
 design feature where backgrounds are cut off.
 
 <img src="img/Natours_shot.JPG">
@@ -39,11 +39,22 @@ Very valuable lesson was about how to arhitect my code, for what i used BEM meth
 I also learned how to implement 7-1 Sass pattern, which is a great way to impose some
 structure on your file system.
 
-Important part of this course is about responsive web design, where lessons about responsive images comes
-in handy ,and not just consedering responsive design, but also as a one of crucial parts for better 
-web performance overall.Here i learned different techniques about serving right image for different screen sizes.
-On following example i used "art direction" technique with <picture> html element, which allowes me to serve different
-images for different widths of the screen.
+Important part of this course is about responsive web design, where lessons about responsive images comes in handy,
+and not just consedering responsive design, but also as a one of crucial parts for better 
+web performance overall.Here I learned different techniques about serving right image for different screen sizes.
+
+On following example I used "art direction" and "density switching" techniques with &lt;picture&gt; and &lt;source&gt; html elements, togheter with "srcset" attribute,
+on my footer logo.
+This allows me to serve different images for different resolutions and widths of the screen.
+
+
+Screen size: 1200px
+
+<img src="img/logo-2.png">
+
+Screen size: 600px
+
+<img src="img/logo-1.png">
 
 Those are just some of many great features i learned throughout this course.
 For live preview, please check out link bellow.
